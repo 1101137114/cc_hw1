@@ -13,8 +13,8 @@ namespace ConsoleApplication1
         {
             IPass card = new IPass();
             StudentIPass s_card = new StudentIPass();
-
-            int distance;
+            
+            int distance; // 距離
             
             Console.WriteLine(card.CardType);
             for (distance = 1; distance < 31; distance ++ )
